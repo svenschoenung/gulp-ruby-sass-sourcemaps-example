@@ -1,0 +1,10 @@
+$c: red;
+
+
+.foo {
+  color:$c;
+}
+
+.bar {
+  color:darken($c, 10%);
+}
